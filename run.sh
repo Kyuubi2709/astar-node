@@ -18,3 +18,7 @@ astar-collator \
   --rpc-external \
   --ws-external \
   --ws-max-connections 500
+  --enable-evm-rpc
+  --ethapi=debug
+  --ethapi=txpool,debug,trace
+  --wasm-runtime-overrides /var/lib/astar/wasm
