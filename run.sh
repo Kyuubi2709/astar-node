@@ -15,10 +15,8 @@ astar-collator \
   --name ${NODE_NAME} \
   --chain astar \
   --base-path /root/astar \
-  --execution Wasm \
-  --rpc-external \
   --ws-external \
   --ws-max-connections 500 \
   --enable-evm-rpc \
   --ethapi=txpool,debug,trace \
-  --wasm-runtime-overrides /var/lib/astar/wasm
+  --wasm-runtime-overrides /var/lib/astar/wasm \
