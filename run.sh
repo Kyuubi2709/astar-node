@@ -15,8 +15,7 @@ astar-collator \
   --base-path /root/astar \
   --state-pruning archive \
   --blocks-pruning archive \
+  --rpc-external \
   --ws-external \
   --ws-max-connections 500 \
   --enable-evm-rpc \
-  --ethapi=txpool,debug,trace \
-  --wasm-runtime-overrides /var/lib/astar/wasm \
