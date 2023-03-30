@@ -9,7 +9,6 @@ fi
 NODE_NAME="AstarOnFlux"
 echo -e "Starting Astar Node: $NODE_NAME"
 astar-collator \
-  --pruning archive \
   --rpc-cors all \
   --name ${NODE_NAME} \
   --chain astar \
