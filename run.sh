@@ -12,6 +12,7 @@ astar-collator \
   --rpc-cors all \
   --name ${NODE_NAME} \
   --chain astar \
+  --execution wasm \
   --base-path /root/astar \
   --state-pruning archive \
   --blocks-pruning archive \
